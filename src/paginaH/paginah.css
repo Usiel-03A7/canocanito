@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 32%;
+    text-align: center;
+    gap: 10rem;
+    border-radius: 5px;
+    position: absolute;
+    top : 15rem;
+    background: linear-gradient(45deg, #474747 , #1a1a1a);
+    
+}
+.titulo {
+    padding: 3rem;
+}
+
+.container .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 3rem;
+}

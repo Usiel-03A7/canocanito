@@ -1,0 +1,55 @@
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 45rem;
+  margin-left: 16%;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background: linear-gradient(to top right, #04003f, #3f0000);
+}
+.containerInfo .containerTitulo {
+  display: flex;
+  position: relative;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  top: -13.85rem;
+}
+.containerInfo .containerOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 17rem;
+  margin-bottom: 50rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.containerInfo .containerOptions p {
+  border: solid #333 2px;
+  color: #fff;
+  border-radius: 6px;
+  width: 10rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background: linear-gradient(to top right, #646464, #666666);
+  cursor: pointer;
+}
+.pages {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+width: 70%;
+  justify-content: space-around;
+  position: absolute;
+  color: #fff;
+
+}
+.pageone {
+}
+.pageTWO{
+  
+}
+.pageone {
+  
+}
